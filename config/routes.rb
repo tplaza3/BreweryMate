@@ -1,5 +1,7 @@
 Brahms::Application.routes.draw do
 
 
-  get "users" => 'projects#index', :as => "users"
+  get "users" => 'users#index', :as => "users"
+  
+  
 end
